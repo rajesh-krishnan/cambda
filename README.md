@@ -1,4 +1,4 @@
 cambda
 ======
 
-Content Associative Memory for Binary Data Analytics: Kanerva's Sparse Distributed Memory
+Content Associative Memory for Binary Data Analytics: an implementation of Kanerva's Sparse Distributed Memory
