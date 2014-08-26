@@ -44,7 +44,7 @@ public class KM {
 
     public static final void setbit(int[] d, int j) {d[(j / 32)] |= (1 << (j % 32));}
     public static final void clearbit(int[] d, int j) {d[(j / 32)] &= ~(1 << (j % 32));}
-    public static final boolean getbit(int[] d, int j) {return (((d[(j / 32)] >>> (j % 32)) & 1) != 0);}
+	public static final boolean getbit(int[] d, int j) {return (((d[(j / 32)] >>> (j % 32)) & 1) != 0);}
 
     public KM(int width, int rows) throws Exception { this(width, width, rows); }
     
